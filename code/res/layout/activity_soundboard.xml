@@ -1,14 +1,136 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    <TextView
+    <Button
+        android:id="@+id/dog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:onClick="playSound"
+        android:text="@string/dog" />
+`
+
+    <Button
+        android:id="@+id/ride_or_die"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".Soundboard" />
+        android:onClick="playSound"
+        android:text="@string/ride_or_die" />
+
+    <Button
+        android:id="@+id/hereWeGoAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ride_or_die"
+        android:onClick="playSound"
+        android:text="@string/here_we_go_again" />
+
+    <Button
+        android:id="@+id/allUpDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/all_up_dog" />
+
+    <Button
+        android:id="@+id/stop_talking_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="playSound"
+        android:text="@string/stop_talking_quick" />
+
+    <Button
+        android:id="@+id/not_a_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ride_or_die"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="playSound"
+        android:text="@string/not_a_game" />
+
+    <Button
+        android:id="@+id/ruff_ryders_you_know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/not_a_game"
+        android:onClick="playSound"
+        android:text="@string/ruff_ryders" />
+
+    <Button
+        android:id="@+id/streets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dog"
+        android:layout_marginTop="19dp"
+        android:onClick="playSound"
+        android:text="@string/the_streets" />
+
+    <Button
+        android:id="@+id/throw_it_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/not_a_game"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/throw_it_up" />
+
+    <Button
+        android:id="@+id/heyYo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/not_a_game"
+        android:layout_alignBottom="@+id/not_a_game"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/hey_yo" />
+
+    <Button
+        android:id="@+id/yeah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/yeah" />
+
+    <Button
+        android:id="@+id/mmm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stop_talking_quick"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="23dp"
+        android:onClick="playSound"
+        android:text="@string/mmm" />
+
+    <Button
+        android:id="@+id/dmx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hereWeGoAgain"
+        android:layout_alignBottom="@+id/hereWeGoAgain"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/d_m_x" />
+
+    <Button
+        android:id="@+id/what_we_do_baby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mmm"
+        android:layout_alignBottom="@+id/mmm"
+        android:layout_alignParentRight="true"
+        android:onClick="playSound"
+        android:text="@string/what_we_do_baby" />
 
 </RelativeLayout>
