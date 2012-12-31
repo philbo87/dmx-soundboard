@@ -14,7 +14,7 @@ public class Soundboard extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_soundboard, menu);
+       // getMenuInflater().inflate(R.menu.activity_soundboard, menu);
         return true;
     }
 }
