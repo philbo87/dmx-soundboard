@@ -5,6 +5,11 @@ My first Android App - the DMX Soundboard!
 
 Development Log:
 
+31-Dec-2012 12:37 PM
+------------
+Now forcing into portrait mode
+Fixed issue where a launcher icon was appearing for each activity
+
 31-Dec-2012 11:19 AM
 -------------
 Made the UI for the Soundboard much nicer
