@@ -24,6 +24,9 @@ public class Soundboard extends Activity {
 
 	public void playSound(View v) {
 		// determine mp3 to play and play it
+		/*if(v.getTag().equals("dog")){
+			mp = MediaPlayer.create(this, R.raw.dog);
+		}*/
 		switch (v.getId()) {
 		case (R.id.allUpDog): {
 			mp = MediaPlayer.create(this, R.raw.all_up_dog);
