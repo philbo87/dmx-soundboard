@@ -5,6 +5,10 @@ My first Android App - the DMX Soundboard!
 
 Development Log:
 
+31-Dec-2012 11:19 AM
+-------------
+Made the UI for the Soundboard much nicer
+
 31-Dec-2012 10:27 AM
 -------------
 Fixed the bug that was causing all sounds to stop and buttons not to function when a button is pressed multiple times in a row. Now a sound won't attempt to play if the MediaPlayer is currently playing

@@ -16,22 +16,28 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int allUpDog=0x7f080003;
-        public static final int dmx=0x7f08000c;
-        public static final int dog=0x7f080000;
-        public static final int hereWeGoAgain=0x7f080002;
-        public static final int heyYo=0x7f080009;
-        public static final int imageView1=0x7f08000e;
-        public static final int menu_settings=0x7f08000f;
-        public static final int mmm=0x7f08000b;
-        public static final int not_a_game=0x7f080005;
-        public static final int ride_or_die=0x7f080001;
-        public static final int ruff_ryders_you_know=0x7f080006;
-        public static final int stop_talking_quick=0x7f080004;
-        public static final int streets=0x7f080007;
-        public static final int throw_it_up=0x7f080008;
-        public static final int what_we_do_baby=0x7f08000d;
-        public static final int yeah=0x7f08000a;
+        public static final int allUpDog=0x7f080005;
+        public static final int dmx=0x7f080013;
+        public static final int dog=0x7f080001;
+        public static final int hereWeGoAgain=0x7f080003;
+        public static final int heyYo=0x7f08000c;
+        public static final int imageView1=0x7f080014;
+        public static final int menu_settings=0x7f080015;
+        public static final int mmm=0x7f080012;
+        public static final int not_a_game=0x7f080008;
+        public static final int ride_or_die=0x7f080002;
+        public static final int row1Layout=0x7f080000;
+        public static final int row2Layout=0x7f080004;
+        public static final int row3Layout=0x7f080007;
+        public static final int row4Layout=0x7f08000a;
+        public static final int row5Layout=0x7f080010;
+        public static final int row6Layout=0x7f08000d;
+        public static final int ruff_ryders_you_know=0x7f080009;
+        public static final int stop_talking_quick=0x7f080006;
+        public static final int streets=0x7f08000e;
+        public static final int throw_it_up=0x7f08000b;
+        public static final int what_we_do_baby=0x7f08000f;
+        public static final int yeah=0x7f080011;
     }
     public static final class layout {
         public static final int activity_soundboard=0x7f030000;
