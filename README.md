@@ -5,6 +5,11 @@ My first Android App - the DMX Soundboard!
 
 Development Log:
 
+Bugs:
+-Sometimes sounds won't play. The time I saw it happen I opened the app, pressed a sound, and then they stopped. Sometimes it happens immediately after the app opens. Not sure what the deal is...
+-Need to clean up things/kill activities when closing (I think)
+
+
 31-Dec-2012 12:37 PM
 ------------
 Now forcing into portrait mode
