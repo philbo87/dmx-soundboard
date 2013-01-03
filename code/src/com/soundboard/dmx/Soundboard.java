@@ -15,6 +15,15 @@ public class Soundboard extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_soundboard);
 	}
+	
+	@Override
+	public void onPause(){
+		super.onPause();
+		
+		mp.stop();
+		mp.reset();
+		this.finish();
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -23,10 +32,15 @@ public class Soundboard extends Activity {
 	}
 
 	public void playSound(View v) {
-		// determine mp3 to play and play it
-		if(mp != null && mp.isPlaying()){
-			return;
+		if(mp!=null){
+			//Stop and reset media player
+			mp.stop();
+			mp.reset();
 		}
+		// determine mp3 to play and play it
+		//if(mp != null && mp.isPlaying()){
+		//	return;
+		//}
 		switch (v.getId()) {
 		case (R.id.allUpDog): {
 			mp = MediaPlayer.create(this, R.raw.all_up_dog);

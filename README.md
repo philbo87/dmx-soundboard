@@ -5,10 +5,13 @@ My first Android App - the DMX Soundboard!
 
 Development Log:
 
-Bugs:
--Sometimes sounds won't play. The time I saw it happen I opened the app, pressed a sound, and then they stopped. Sometimes it happens immediately after the app opens. Not sure what the deal is...
--Need to clean up things/kill activities when closing (I think)
+ToDo:
+-More sounds?
+-Text on Splash Screen?
 
+2-Jan-2013 9:02 PM
+-----------
+Now finishing the activity no matter what when it is paused. Also I changed the way the media player works - if you press a button for a sound while a sound is playing, the playing sound will stop now and the new sound will start playing. Multiple sounds do not play at once. This seems to have solved the issue where none of the buttons work suddenly.
 
 31-Dec-2012 12:37 PM
 ------------
