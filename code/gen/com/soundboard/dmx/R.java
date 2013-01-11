@@ -17,13 +17,17 @@ public final class R {
     }
     public static final class id {
         public static final int allUpDog=0x7f080005;
+        public static final int crying=0x7f080015;
         public static final int dmx=0x7f080013;
         public static final int dog=0x7f080001;
         public static final int hereWeGoAgain=0x7f080003;
         public static final int heyYo=0x7f08000c;
-        public static final int imageView1=0x7f080014;
-        public static final int menu_settings=0x7f080015;
+        public static final int imageView1=0x7f08001a;
+        public static final int kids_career=0x7f080016;
+        public static final int menu_exit=0x7f08001b;
+        public static final int menu_settings=0x7f08001c;
         public static final int mmm=0x7f080012;
+        public static final int mommy=0x7f080017;
         public static final int not_a_game=0x7f080008;
         public static final int ride_or_die=0x7f080002;
         public static final int row1Layout=0x7f080000;
@@ -32,6 +36,9 @@ public final class R {
         public static final int row4Layout=0x7f08000a;
         public static final int row5Layout=0x7f080010;
         public static final int row6Layout=0x7f08000d;
+        public static final int row7Layout=0x7f080014;
+        public static final int row8Layout=0x7f080018;
+        public static final int rudolph=0x7f080019;
         public static final int ruff_ryders_you_know=0x7f080009;
         public static final int stop_talking_quick=0x7f080006;
         public static final int streets=0x7f08000e;
@@ -49,32 +56,41 @@ public final class R {
     }
     public static final class raw {
         public static final int all_up_dog=0x7f040000;
-        public static final int dmx=0x7f040001;
-        public static final int dog=0x7f040002;
-        public static final int here_we_go_again=0x7f040003;
-        public static final int hey_yo=0x7f040004;
-        public static final int mmm=0x7f040005;
-        public static final int not_a_game=0x7f040006;
-        public static final int ride_or_die=0x7f040007;
-        public static final int ruff_ryders_you_know=0x7f040008;
-        public static final int stop_talking_quick=0x7f040009;
-        public static final int streets=0x7f04000a;
-        public static final int throw_it_up=0x7f04000b;
-        public static final int what_we_do_baby=0x7f04000c;
-        public static final int yeah=0x7f04000d;
+        public static final int crying=0x7f040001;
+        public static final int dmx=0x7f040002;
+        public static final int dog=0x7f040003;
+        public static final int here_we_go_again=0x7f040004;
+        public static final int hey_yo=0x7f040005;
+        public static final int kids_career=0x7f040006;
+        public static final int mmm=0x7f040007;
+        public static final int mommy=0x7f040008;
+        public static final int not_a_game=0x7f040009;
+        public static final int ride_or_die=0x7f04000a;
+        public static final int rudolph=0x7f04000b;
+        public static final int ruff_ryders_you_know=0x7f04000c;
+        public static final int stop_talking_quick=0x7f04000d;
+        public static final int streets=0x7f04000e;
+        public static final int throw_it_up=0x7f04000f;
+        public static final int what_we_do_baby=0x7f040010;
+        public static final int yeah=0x7f040011;
     }
     public static final class string {
         public static final int all_up_dog=0x7f050005;
         public static final int app_name=0x7f050000;
+        public static final int crying=0x7f050013;
         public static final int d_m_x=0x7f05000e;
         public static final int dog=0x7f05000f;
         public static final int hello_world=0x7f050001;
         public static final int here_we_go_again=0x7f050010;
         public static final int hey_yo=0x7f050011;
-        public static final int menu_settings=0x7f050002;
+        public static final int kids_career=0x7f050014;
+        public static final int menu_exit=0x7f050002;
+        public static final int menu_settings=0x7f050017;
         public static final int mmm=0x7f050012;
+        public static final int mommy=0x7f050015;
         public static final int not_a_game=0x7f05000d;
         public static final int ride_or_die=0x7f05000c;
+        public static final int rudolph=0x7f050016;
         public static final int ruff_ryders=0x7f05000b;
         public static final int stop_talking_quick=0x7f05000a;
         public static final int the_streets=0x7f050009;

@@ -6,8 +6,13 @@ My first Android App - the DMX Soundboard!
 Development Log:
 
 ToDo:
--More sounds?
+-Finish implementing exit app button
 -Text on Splash Screen?
+
+10-Jan-2013 10:41 PM
+-----------
+-Added four more sounds - DMX crying, DMX saying "Mommy", DMX talking about his kids/career, and DMX singing Rudolph the Red Nosed Reindeer. I am considering sounds done for now.
+-I have also begun implmenting a menu with an exit button. But, something isn't being done right. The app "crashes" when I exit. Maybe I need to make an intent to exit? Not sure yet, and I'm too tired to figure it out right now.
 
 2-Jan-2013 9:02 PM
 -----------

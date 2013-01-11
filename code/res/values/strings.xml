@@ -2,7 +2,7 @@
 
     <string name="app_name">DMX Soundboard</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
     <string name="title_activity_splash_screen">DMX Soundboard</string>
     <string name="title_activity_soundboard">DMX Soundboard</string>
     <string name="all_up_dog">All Up Dog</string>
@@ -19,5 +19,10 @@
     <string name="here_we_go_again">Here we go!</string>
     <string name="hey_yo">Hey yo!</string>
     <string name="mmm">Mmm...</string>
+    <string name="crying">Crying</string>
+    <string name="kids_career">Kids &amp; Career</string>
+    <string name="mommy">Mommy!</string>
+    <string name="rudolph">DMX sings Rudolph the Red-Nosed Reindeer</string>
+    <string name="menu_settings">Settings</string>
 
 </resources>

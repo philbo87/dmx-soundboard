@@ -179,4 +179,58 @@
             android:text="@string/d_m_x" />
     </LinearLayout>
 
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/row7Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/row5Layout"
+        android:clickable="false"
+        android:longClickable="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/crying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="@string/crying" />
+
+        <Button
+            android:id="@+id/kids_career"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="@string/kids_career" />
+
+        <Button
+            android:id="@+id/mommy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="@string/mommy" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/row8Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/row7Layout"
+        android:clickable="false"
+        android:longClickable="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/rudolph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="@string/rudolph" />
+    </LinearLayout>
+
 </RelativeLayout>

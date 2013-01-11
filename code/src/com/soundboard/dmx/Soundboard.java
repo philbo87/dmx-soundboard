@@ -4,6 +4,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class Soundboard extends Activity {
@@ -15,11 +16,11 @@ public class Soundboard extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_soundboard);
 	}
-	
+
 	@Override
-	public void onPause(){
+	public void onPause() {
 		super.onPause();
-		
+
 		mp.stop();
 		mp.reset();
 		this.finish();
@@ -27,20 +28,41 @@ public class Soundboard extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// getMenuInflater().inflate(R.menu.activity_soundboard, menu);
+		getMenuInflater().inflate(R.menu.activity_soundboard, menu);
 		return true;
 	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.menu_exit: {
+			exitApp();
+			return true;
+		}
+		default: {
+			return super.onOptionsItemSelected(item);
+		}
+		
+		}
+	}
+	
+	private void exitApp(){
+		mp.stop();
+		mp.reset();
+		onPause();
+		
+	}
+
 	public void playSound(View v) {
-		if(mp!=null){
-			//Stop and reset media player
+		if (mp != null) {
+			// Stop and reset media player
 			mp.stop();
 			mp.reset();
 		}
 		// determine mp3 to play and play it
-		//if(mp != null && mp.isPlaying()){
-		//	return;
-		//}
+		// if(mp != null && mp.isPlaying()){
+		// return;
+		// }
 		switch (v.getId()) {
 		case (R.id.allUpDog): {
 			mp = MediaPlayer.create(this, R.raw.all_up_dog);
@@ -98,6 +120,22 @@ public class Soundboard extends Activity {
 		}
 		case (R.id.yeah): {
 			mp = MediaPlayer.create(this, R.raw.yeah);
+			break;
+		}
+		case (R.id.crying): {
+			mp = MediaPlayer.create(this, R.raw.crying);
+			break;
+		}
+		case (R.id.kids_career): {
+			mp = MediaPlayer.create(this, R.raw.kids_career);
+			break;
+		}
+		case (R.id.mommy): {
+			mp = MediaPlayer.create(this, R.raw.mommy);
+			break;
+		}
+		case (R.id.rudolph): {
+			mp = MediaPlayer.create(this, R.raw.rudolph);
 			break;
 		}
 		default:
